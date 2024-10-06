@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "gofiber-producer"
+  },
+  "web": {
+    "prefork": false,
+    "port": 3000
+  },
+  "log": {
+    "level": 6
+  },
+  "postgresql": {
+    "username": "postgres",
+    "password": "sqlpaafff",
+    "host": "localhost",
+    "port": 5432,
+    "name": "db_gofiber",
+    "sslmode": "disable",
+    "timezone": "Asia/Shanghai"
+  },
+  "mongodb": {
+    "uri": "mongodb://localhost:27017"
+  },
+  "redis": {
+    "addr": "localhost:6379",
+    "password": "",
+    "db": 0
+  },
+  "rabbitmq": {
+    "uri": "amqp://guest:guest@localhost:5672/"
+  },
+  "jwt_secret": "rahasia-paafff"
+}

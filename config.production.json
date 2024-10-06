@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "gofiber-producer"
+  },
+  "web": {
+    "prefork": false,
+    "port": 3000
+  },
+  "log": {
+    "level": 6
+  },
+  "postgresql": {
+    "username": "postgres",
+    "password": "sqlpaafff",
+    "host": "host.docker.internal",
+    "port": 5432,
+    "name": "db_gofiber",
+    "sslmode": "disable",
+    "timezone": "Asia/Shanghai"
+  },
+  "mongodb": {
+    "uri": "mongodb://host.docker.internal:27017"
+  },
+  "redis": {
+    "addr": "host.docker.internal:6379",
+    "password": "",
+    "db": 0
+  },
+  "rabbitmq": {
+    "uri": "amqp://guest:guest@host.docker.internal:5672/"
+  },
+  "jwt_secret": "rahasia-paafff"
+}
